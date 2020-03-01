@@ -1,5 +1,5 @@
 #!/bin/bash
-. shmod.sh
+. shmod
 
 include github.com/dockcmd/util util.sh
 
