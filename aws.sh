@@ -1,7 +1,7 @@
 #!/bin/bash
 . shmod
 
-include github.com/dockcmd/util util.sh
+include github.com/dockcmd/shmod util.sh
 
 # ensure settings directories exist
 mkdir -p $HOME/.aws
