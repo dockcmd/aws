@@ -9,8 +9,7 @@ docker build --build-arg AWS_VERSION_=1.16.145 -t dockcmd/aws:v1.16.145 .
 docker build --build-arg AWS_VERSION_=1.16.306 -t dockcmd/aws:v1.16.306 .
 ```
 
-
-# Usage of AWS
+# Usage
 
 ```bash
 
@@ -28,7 +27,14 @@ docker run --rm \
   awscli:v1.16.306 --version
 ```
 
-# Usage of awsts and awsrole
+# Shln
+
+To install for shln
+```bash
+shln install github.com/dockcmd/aws v0.0.2
+```
+
+# awsts and awsrole
 
 ## Setup
 
